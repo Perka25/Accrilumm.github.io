@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Contatco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <img src="/IMAGENES/LOGO/LOGO.png" class="logo" alt="Logo" />
+    <ul class="nav-links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li class="dropdown">
+        Productos
+        <ul class="dropdown-content">
+          <li><a href="/Dibujos/Dibujos.html">Dibujos</a></li>
+          <li><a href="/Spotify/spotify.html">Spotify</a></li>
+          <li><a href="/Fotos/fotos.html">Fotos</a></li>
+        </ul>
+      </li>
+      <li><a href="/Contacto/Contacto.html">Contacto</a></li>
+    </ul>
+
+    <div class="hamburger-menu">
+      <img src="/IMAGENES/ICONOS/ICON-MENU.png" alt="Menú" />
+    </div>
+  </nav>
+    
+      <main>
+        <div class="contacto-container">
+          <div class="titulo">
+            <p>Contacto</p>
+          </div>
+          <br><br>
+          <form class="formulario" id="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+      
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+      
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+      
+            <button type="submit">Enviar</button>
+          </form>
+
+          <p class="numero">Numero Telefónico</p>
+          <p class="numero2">
+          <i class="fas fa-phone-alt fa-flip-horizontal" style="color:white; margin-right: 8px;"></i>
+          +52 656 123 4567
+          </p>
+
+
+
+    
+          <p class="mensaje-importante">
+            Agradecemos tus mensajes y comentarios.
+          </p>
+        </div>
+        <br><br><br>
+      </main>
+      
+
+      <footer class="footer">
+        <div class="footer-left">
+          <img src="/IMAGENES/LOGO/LOGO.png" alt="Logo Footer" class="footer-logo" />
+          <ul class="footer-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Dibujos/Dibujos.html">Dibujos</a></li>
+            <li><a href="/Spotify/spotify.html">Spotify</a></li>
+            <li><a href="/Fotos/fotos.html">Fotos</a></li>
+            <li><a href="/Contacto/Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-center">
+          <div class="icon-text">
+            <img src="/IMAGENES/ICONOS/ICON-WHATSSSS.png" alt="WhatsApp" />
+            <span>+52 618 178 1462</span>
+          </div>
+        </div>
+    
+        <div class="footer-right">
+          <a href="#topp" class="scroll-top">
+            <img src="/IMAGENES/ICONOS/ICON-REGRESAR.png" alt="Ir arriba" />
+          </a>
+        </div>
+      </footer>
+    
+      <script src="contacto.js"></script>
+      <script src="/Principal/JS-P/script.js"></script>
+</body>
+</html>
